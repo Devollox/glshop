@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #212227;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .102);
+}
+
+.container {
+    display: flex;
+    margin: 12px 12px 12px 12px;
+    max-width: 1560px;
+    width: 100%;
+}
+
+.search_button {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    padding-left: 16px;
+    border: 1px solid hsla(0, 0%, 100%, .102);
+    height: 48px;
+    margin: 0 12px 0 0;
+    width: 100%;
+    background: #2c2d32;
+}
+
+.control_button {
+    border-radius: 12px;
+    border: 1px solid hsla(0, 0%, 100%, .102);
+    height: 48px;
+    width: 48px;
+    background: #2c2d32;
+}
+
+.header_search_input {
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: 12px;
+    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
+    width: 195px;
+}
+
+.header_control_button {
+    align-items: center;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    border-radius: 12px;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    position: relative;
+    transition-duration: .3s;
+    transition-property: border-color, background-color;
+    transition-timing-function: ease-in-out;
+    width: 48px;
+}
+
+.header_control_button:hover {
+    background-color: hsla(0, 0%, 100%, .1);
+}
+
+@media (max-width: 1439px) {
+    .container {
+        padding: 0 18px;
+    }
+}
+
+@media (max-width: 1439px) {
+    .container {
+        padding: 0 18px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .control_button {
+        display: none;
+    }
+}
