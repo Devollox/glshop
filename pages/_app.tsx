@@ -1,6 +1,7 @@
 import {ThemeProvider} from 'next-themes'
 import Head from "@/components/head";
 import '../styles/globals.css';
+import '../styles/swiper.css';
 
 interface Props {
   Component: typeof Head

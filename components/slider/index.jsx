@@ -1,96 +1,87 @@
 import React, {useRef, useState} from "react";
 import {Swiper, SwiperSlide, SwiperClass, SwiperRef} from 'swiper/react';
-import {Autoplay, FreeMode, Navigation, Pagination, Thumbs} from "swiper/modules";
+import {Autoplay, EffectFade, FreeMode, Navigation, Pagination, Thumbs} from "swiper/modules";
+import CartButton from "./cartbutton"
+import CartBackground from "./cartbackground";
+import { data as data } from "../../public/games/config.json"
 import styles from './slider.module.css'
-import 'swiper/css';
+import 'swiper/css/effect-fade'
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 
 const Slider = () => {
   const [thumbsSwiper, setThumbsSwiper] = React.useState()
+
   return (
     <>
       <div className={styles.wrapper_slider}>
         <div className={styles.slider}>
           <div className={styles.container}>
             <Swiper
-              spaceBetween={10}
-              navigation={true}
+              autoplay={{
+                disableOnInteraction: false,
+              }}
+              fadeEffect={{
+                crossFade: true,
+              }}
+              allowTouchMove={false}
+              speed={2000}
+              slidersPerView={1}
+              effect={"fade"}
               thumbs={{swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null}}
-              modules={[FreeMode, Navigation, Thumbs]}
-              className="mySwiper2"
+              modules={[Thumbs, Autoplay, EffectFade, Pagination]}
+              className="swiper_main"
             >
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-              </SwiperSlide>
+              {data.map(data => {
+                return (
+                  <SwiperSlide>
+                    <CartBackground exclusive={data.exclusive} alt={data.title} title={data.title} img={data.idImg} description={data.description}>
+                    </CartBackground>
+                  </SwiperSlide>
+                )
+              })}
             </Swiper>
             <Swiper
+              direction={'vertical'}
               onSwiper={setThumbsSwiper}
-              spaceBetween={10}
-              slidesPerView={4}
+              slidesPerView={5}
               freeMode={true}
               watchSlidesProgress={true}
               modules={[FreeMode, Navigation, Thumbs]}
-              className="mySwiper"
+              className="swiper_button"
             >
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-              </SwiperSlide>
+              {data.map(data => {
+                return (
+                  <SwiperSlide>
+                    <CartButton alt={data.title} title={data.title} img={data.idImg} />
+                  </SwiperSlide>
+                )
+              })}
             </Swiper>
+
+              <Swiper
+                slidesPerView={'auto'}
+                spaceBetween={30}
+                autoplay={{
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                speed={2000}
+                freeMode={true}
+                slidersPerView={1}
+                modules={[Pagination, FreeMode, Autoplay]}
+                className="swiper_main swiper_main_mobail"
+              >
+                {data.map(data => {
+                  return (
+                    <SwiperSlide>
+                      <CartBackground exclusive={data.exclusive} alt={data.title} title={data.title} img={data.idImg} description={data.description}>
+                      </CartBackground>
+                    </SwiperSlide>
+                  )
+                })}
+              </Swiper>
           </div>
         </div>
       </div>
@@ -98,5 +89,5 @@ const Slider = () => {
   )
 }
 
-/* Swipper.js uses TypeScript very poorly. Then correct the error on line 55  */
+/* Swipper.js uses TypeScript very poorly. Then correct the error on line 47  */
 export default Slider

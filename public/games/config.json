@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "title": "Dark Souls 3",
+      "idImg": "darksouls3",
+      "description": "Dark Souls III — компьютерная игра в жанре Action/RPG, разработанная компанией FromSoftware.",
+      "exclusive": "false",
+      "tag": [
+        "Игра", "Steam"
+      ]
+    },
+    {
+      "title": "God of War Ragnarök",
+      "idImg": "godofwar",
+      "description": "God of War — серия компьютерных игр в экшн-жанрах hack and slash и action-adventure. Основана на древнегреческой и скандинавской мифологии.",
+      "exclusive": "true",
+      "tag": [
+        "Игра", "Steam"
+      ]
+    },
+    {
+      "title": "ELDEN RING Shadow of the  Erdtree",
+      "idImg": "eldenring",
+      "description": "Elden Ring — компьютерная игра в жанре action/RPG с открытым миром, разработанная японской компанией FromSoftware.",
+      "exclusive": "true",
+      "tag": [
+        "Игра", "Игровые предметы", "Steam"
+      ]
+    },
+    {
+      "title": "Black Myth Wukong",
+      "idImg": "blackmythwukong",
+      "description": "Black Myth: Wukong — Станьте Избранным и отправляйтесь в приключение, полное испытаний, чудес и опасностей, в котором вам предстоит приподнять завесу тайны над великой легендой.",
+      "exclusive": "false",
+      "tag": [
+        "Игра", "Steam"
+      ]
+    },
+    {
+      "title": "Frostpunk 2",
+      "idImg": "frostpunk2",
+      "description": "Frostpunk 2 — компьютерная игра в жанре градостроительного симулятора и симулятора выживания, разработанная компанией 11 bit studios. Игра включает в себя элементы стимпанка и альтернативной истории.",
+      "exclusive": "true",
+      "tag": [
+        "Игра", "Steam"
+      ]
+    }
+]
+}

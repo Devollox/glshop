@@ -21,7 +21,7 @@ const Navbar = () => {
             <input className={styles.header_search_input} type="text" placeholder="Найти что-то конкретное.."/>
           </div>
           <Link href="/cart">
-            <div className={styles.control_button}>
+            <div className={styles.control_button} style={{marginLeft: '12px'}}>
               <div className={styles.header_control_button}>
                 <span>
                   <svg width="14" height="24"
