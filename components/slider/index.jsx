@@ -6,7 +6,7 @@ import CartBackground from "./cartbackground";
 import { data as data } from "../../public/games/config.json"
 import styles from './slider.module.css'
 import 'swiper/css/effect-fade'
-import 'swiper/css/pagination';
+
 
 const Slider = () => {
   const [thumbsSwiper, setThumbsSwiper] = React.useState()
@@ -67,11 +67,8 @@ const Slider = () => {
                 pagination={{
                   clickable: true,
                 }}
-                speed={2000}
-                freeMode={true}
-                slidersPerView={1}
-                modules={[Pagination, FreeMode, Autoplay]}
-                className="swiper_main swiper_main_mobail"
+                modules={[Pagination]}
+                className="swiper_main_mobail swiper_main"
               >
                 {data.map(data => {
                   return (

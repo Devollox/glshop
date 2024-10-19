@@ -3,15 +3,12 @@
     padding: 0;
     border-box: border-box;
 }
-
 body {
     background: #14151b;
 }
-
 body::-webkit-scrollbar {
     display: none;
 }
-
 button, input, optgroup, select, textarea {
     color: inherit;
     font-family: inherit;
@@ -24,32 +21,28 @@ button, input, optgroup, select, textarea {
     margin: 0;
     padding: 0;
 }
-
 button, input, select, textarea {
     background-color: transparent;
     border-style: none;
 }
-
 .swiper {
     width: 100%;
     height: 100%;
 }
-
 .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .swiper-slide img {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
+.swiper_main_mobail .swiper-slide {
+    width: 90%;
+}

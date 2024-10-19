@@ -2,6 +2,7 @@ import styles from "./navbar.module.css"
 import Basket from "@/components/icons/basket";
 import Search from "@/components/icons/search";
 import Link from "next/link";
+import Settings from "@/components/icons/settings";
 
 const Navbar = () => {
   return (
@@ -20,15 +21,27 @@ const Navbar = () => {
             </span>
             <input className={styles.header_search_input} type="text" placeholder="Найти что-то конкретное.."/>
           </div>
-          <Link href="/cart">
+          <div className={styles.control_button} style={{marginLeft: '12px'}}>
+            <div className={styles.header_control_button}>
+              <span>
+                <svg width="14" height="24"
+                     viewBox="0 0 14 24" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                  <Settings />
+                </svg>
+              </span>
+            </div>
+          </div>
+          <Link href="/cart" className={styles.basket}>
             <div className={styles.control_button} style={{marginLeft: '12px'}}>
               <div className={styles.header_control_button}>
                 <span>
                   <svg width="14" height="24"
                        viewBox="0 0 14 24" fill="none"
                        xmlns="http://www.w3.org/2000/svg">
-                    <Basket/>
+                    <Basket />
                   </svg>
+                  <div className={styles.header_control_badge}>19</div>
                 </span>
               </div>
             </div>
