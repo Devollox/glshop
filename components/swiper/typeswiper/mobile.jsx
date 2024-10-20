@@ -9,7 +9,7 @@ const SwiperMobile = () => {
     <>
       <Swiper
         slidesPerView={'auto'}
-        spaceBetween={30}
+        spaceBetween={10}
         autoplay={{
           disableOnInteraction: false,
         }}
