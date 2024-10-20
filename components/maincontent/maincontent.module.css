@@ -1,0 +1,11 @@
+.wrapper_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+}
+
+.wrapper_swiper {
+    width: 1266px;
+    margin: 0 30px 0 30px;
+}

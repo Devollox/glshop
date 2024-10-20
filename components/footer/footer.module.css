@@ -1,0 +1,9 @@
+.footer_container {
+
+    border-top: 1px solid hsla(0, 0%, 100%, .1);
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 42px 37px;
+
+}

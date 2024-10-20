@@ -4,6 +4,7 @@
     border-box: border-box;
 }
 body {
+    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
     background: #14151b;
 }
 body::-webkit-scrollbar {
@@ -25,24 +26,6 @@ button, input, select, textarea {
     background-color: transparent;
     border-style: none;
 }
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.swiper-slide img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.swiper_main_mobail .swiper-slide {
-    width: 90%;
+.rfm-marquee .rfm-initial-child-container .rfm-child {
+    height: 52px !important;
 }
