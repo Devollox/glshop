@@ -588,8 +588,13 @@
     }
 }
 .swiper_cart {
-    max-width: 1266px;
+    max-width: 1560px;
     padding-top: 55px !important;
+}
+@media (max-width: 1620px) {
+    .slider {
+        max-width: 1266px;
+    }
 }
 @media (max-width: 1281px) {
     .swiper_cart {
@@ -648,6 +653,7 @@
     content: url("../public/arrow.svg") !important;
     font-size: 0px !important;
 }
+
 @media (max-width: 832px) {
     .swiper-button-next, .swiper-button-prev {
         display: none !important;

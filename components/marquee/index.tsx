@@ -2,20 +2,21 @@ import React from "react";
 import {data as data_all} from "../../public/games/all_shop.json"
 import Marquee from "react-fast-marquee";
 import styles from './marquee.module.css'
-import {SwiperSlide} from "swiper/react";
-import CartBackground from "@/components/swiper/cartbackground";
 
+import Link from "next/link";
 
 const MarqueeSlide = () => {
   return (
     <>
       <Marquee className={styles.marguee} style={{marginBottom: '100px'}}>
-        {data_all.slice(0, 50).map(data => {
+        {data_all.slice(0, 200).map(data => {
           return (
-            <div className={styles.marquee_item}>
-              <img src={`${data.picture_url}`} loading="lazy" alt={`${data.name}`}/>
-              <p>{data.name}</p>
-            </div>
+            <Link style={{textDecoration: 'none', color: 'white', opacity: '.9'}} href={`${data.external_data.app_id}`}>
+              <div className={styles.marquee_item}>
+                <img src={`${data.picture_url}`} loading="lazy" alt={`${data.name}`}/>
+                <p>{data.name}</p>
+              </div>
+            </Link>
           )
         })}
       </Marquee>

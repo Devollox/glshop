@@ -10,6 +10,9 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+а, p, div {
+    text-decoration: none !important;
+}
 button, input, optgroup, select, textarea {
     color: inherit;
     font-family: inherit;

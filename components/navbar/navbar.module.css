@@ -1,4 +1,5 @@
 .navbar {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     position: fixed;
@@ -9,10 +10,16 @@
     border-bottom: 1px solid hsla(0, 0%, 100%, .102);
 }
 .container {
+    text-decoration: none !important;
     display: flex;
     margin: 12px 12px 12px 12px;
-    max-width: 1266px;
+    max-width: 1560px;
     width: 100%;
+}
+@media (max-width: 1620px) {
+    .container {
+        max-width: 1266px;
+    }
 }
 .search_button {
     display: flex;
@@ -84,4 +91,8 @@
     .basket {
         display: none;
     }
+}
+.catalog_name {
+    text-decoration: none !important;
+    color: white;
 }

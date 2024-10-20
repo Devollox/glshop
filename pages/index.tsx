@@ -11,6 +11,7 @@ import {data as data_hot} from "../public/games/hot_products_shop.json"
 import {data as data_pre_order} from "../public/games/pre_order_shop.json"
 import {data as data_all} from "../public/games/all_shop.json"
 import MarqueeSlide from "../components/marquee";
+import TapBar from "@/components/tapbar";
 
 const Main = () => {
   return (
@@ -27,7 +28,8 @@ const Main = () => {
       </MainContent>
       <MarqueeSlide />
       <MainContent>
-        <Footer />
+        <Footer/>
+        <TapBar catalog={".5"} main={"1"} cart={".5"}/>
       </MainContent>
     </Page>
   );

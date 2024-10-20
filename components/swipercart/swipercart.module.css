@@ -119,6 +119,7 @@
     }
 }
 .prices_price {
+    color: white;
     user-select: none;
     font-size: 20px;
     font-weight: 700;
@@ -140,6 +141,7 @@
     }
 }
 .prices_currency_price {
+    color: white;
     user-select: none;
     display: flex;
     font-size: 14px;
@@ -147,6 +149,7 @@
     opacity: .7;
 }
 .product_card_name {
+    color: white;
     user-select: none;
     display: flex;
     align-content: start;
@@ -235,6 +238,7 @@
     bottom: 8px;
     width: 100%;
 }
+
 .product_card_tag_bottom {
     align-items: center;
     background: #20202099;
@@ -281,8 +285,6 @@
         margin-bottom: 24px;
     }
 }
-
-
 @media (max-width: 1550px) {
     .card_list_title {
         margin-bottom: 1.25rem;
