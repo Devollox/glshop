@@ -20,7 +20,7 @@
     {
       "title": "God of War Ragnarök",
       "idImg": "2322010",
-      "description": "God of War — серия компьютерных игр в экшн-жанрах hack and slash и action-adventure. Основана на древнегреческой и скандинавской мифологии.",
+      "description": "God of War — основана на древнегреческой и скандинавской мифологии.",
       "views": 345,
       "informationPrice": {
         "price": 1000,
@@ -37,7 +37,7 @@
     {
       "title": "ELDEN RING Shadow of the  Erdtree",
       "idImg": "2778580",
-      "description": "Elden Ring — компьютерная игра в жанре action/RPG с открытым миром, разработанная японской компанией FromSoftware.",
+      "description": "Elden Ring — компьютерная игра в жанре action/RPG с открытым миром.",
       "views": 432,
       "informationPrice": {
         "price": 1000,
@@ -54,7 +54,7 @@
     {
       "title": "Black Myth Wukong",
       "idImg": "2358720",
-      "description": "Black Myth: Wukong — Станьте Избранным и отправляйтесь в приключение, полное испытаний, чудес и опасностей, в котором вам предстоит приподнять завесу тайны над великой легендой.",
+      "description": "Black Myth: Wukong — Станьте Избранным и отправляйтесь в приключение, полное испытаний, чудес и опасностей.",
       "views": 233,
       "informationPrice": {
         "price": 1000,
@@ -71,7 +71,7 @@
     {
       "title": "Frostpunk 2",
       "idImg": "1601580",
-      "description": "Frostpunk 2 — компьютерная игра в жанре градостроительного симулятора и симулятора выживания, разработанная компанией 11 bit studios. Игра включает в себя элементы стимпанка и альтернативной истории.",
+      "description": "Frostpunk 2 — игра включает в себя элементы стимпанка и альтернативной истории.",
       "views": 890,
       "informationPrice": {
         "price": 1000,
