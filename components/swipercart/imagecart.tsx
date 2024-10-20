@@ -12,7 +12,7 @@ const ImageCart:React.FC<Props> = ({data}) => {
     "Весь мир (Без РФ)": "globe-showing-asia-australia-svgrepo-com",
     "Россия+СНГ": 'flag-for-flag-russia-svgrepo-com',
     "Россия": 'flag-for-flag-russia-svgrepo-com',
-    "СНГ (Без РФ и РБ)": 'flag-for-flag-russia-svgrepo-com'
+    "СНГ (Без РФ и РБ)": 'flag-for-flag-kazakhstan-svgrepo-com'
 
   }
 
