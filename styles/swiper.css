@@ -648,3 +648,8 @@
     content: url("../public/arrow.svg") !important;
     font-size: 0px !important;
 }
+@media (max-width: 832px) {
+    .swiper-button-next, .swiper-button-prev {
+        display: none !important;
+    }
+}
