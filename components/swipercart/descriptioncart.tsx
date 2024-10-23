@@ -1,4 +1,5 @@
 import styles from "@/components/swipercart/swipercart.module.css";
+import path from "path";
 import React from "react";
 
 interface Props {
@@ -26,7 +27,7 @@ const DescriptionCart:React.FC<Props> = ({data}) => {
               <>
               </>
             }
-            <div className={styles.prices_price}>{data.price}
+            <div className={styles.prices_price}>{data.price.toLocaleString('ru-RU')}
               <span style={{marginLeft: '3px'}}>
                 <svg width="16" height="16" viewBox="0 0 201 201"
                      fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -40,9 +41,9 @@ const DescriptionCart:React.FC<Props> = ({data}) => {
               </span>
             </div>
             <div className={styles.prices_currency_price}>{data.old_price === null ?
-              <div>{data.price_in_gold} ₽</div> :
+              <div>{parseInt(data.price_in_gold).toLocaleString('ru-RU')} ₽</div> :
               <div style={{textDecorationLine: 'line-through', display: 'flex'}}>
-                {data.old_price} ₽
+                {data.old_price.toLocaleString('ru-RU')} ₽
               </div>
             }
             </div>

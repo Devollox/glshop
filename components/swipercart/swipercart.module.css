@@ -2,31 +2,31 @@
     width: 240px;
     height: 360px;
 }
+.wrapper_description {
+    width: 240px;
+    height: auto !important;
+}
 @media (max-width: 767px) {
-    .cart {
+    .cart, .wrapper_description {
         height: 300px;
         width: 200px;
     }
 }
 @media (max-width: 1280px) {
-    .cart {
+    .cart, .wrapper_description {
         height: 244px;
         width: 174px;
     }
 }
 @media (max-width: 1550px) {
-    .cart {
+    .cart, .wrapper_description {
         height: 294px;
         width: 196px;
     }
 }
-@media (max-width: 1550px) {
-    .cart {
-        height: 294px;
-        width: 196px;
-    }
+.wrapper_swiper {
+    margin-top: 50px;
 }
-
 @media (max-width: 1281px) {
     .wrapper_swiper {
         max-width: 1216px;
@@ -38,7 +38,6 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
 .product_price {
     font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
     align-items: flex-end;
@@ -48,7 +47,6 @@
     height: 1.5rem;
     margin-top: 1rem;
 }
-
 .prices_discount {
     user-select: none;
     background-color: #00ff9340;
@@ -94,7 +92,6 @@
         margin-top: .5rem;
     }
 }
-
 @media (max-width: 1280px) {
     .product_price {
         margin-top: .5rem;
@@ -119,6 +116,7 @@
     }
 }
 .prices_price {
+    font-family: Geometria, Inter, Avenir, Helvetica, Arial, sans-serif;
     color: white;
     user-select: none;
     font-size: 20px;
@@ -197,7 +195,6 @@
     border-radius: 30px;
     box-shadow: 0 0 8px #0000004d;
     display: flex;
-
     font-weight: 500;
     height: 32px;
     justify-content: center;
@@ -208,7 +205,6 @@
 }
 .mixing_cart {
     height: 360px;
-    width: 100%;
     z-index: 3;
     position: absolute;
 }
@@ -225,7 +221,7 @@
     }
 }
 @media (max-width: 1550px) {
-    .mixing_cart    {
+    .mixing_cart {
         height: 294px;
         width: 196px;
     }
@@ -238,7 +234,6 @@
     bottom: 8px;
     width: 100%;
 }
-
 .product_card_tag_bottom {
     align-items: center;
     background: #20202099;
@@ -254,8 +249,8 @@
     justify-content: center;
     letter-spacing: -.48px;
     line-height: 1.5rem;
+
     padding-right: 8px;
-    white-space: nowrap;
     z-index: 10;
 }
 .product_description_logo {

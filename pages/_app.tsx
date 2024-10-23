@@ -5,6 +5,12 @@ import '../styles/swiper.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import MainContent from "@/components/maincontent";
+import Footer from "@/components/footer";
+import TapBar from "@/components/tapbar";
+import React from "react";
+import MarqueeSlide from "@/components/marquee";
+import Navbar from "@/components/navbar";
 
 interface Props {
   Component: typeof Head
@@ -14,9 +20,20 @@ interface Props {
 const MyApp: React.FC<Props> = ({Component, pageProps}) => {
   return (
     <>
-      <Head />
+      <Head/>
       <ThemeProvider defaultTheme={"light"}>
-        <Component {...pageProps} />
+        <div style={{display: "flex", flexDirection: "column", minHeight: '100vh', justifyContent: "space-between"}}>
+          <div>
+            <Navbar/>
+            <Component {...pageProps} />
+          </div>
+          <div>
+            <MarqueeSlide/>
+            <MainContent>
+              <Footer/>
+            </MainContent>
+          </div>
+        </div>
       </ThemeProvider>
     </>
   )

@@ -15,7 +15,7 @@ interface PropsSwiperCart {
 const SwiperCart: React.FC<PropsSwiperCart> = ({title, data}) => {
   return (
     <>
-      <div className={styles.wrapper_swiper} style={{marginTop: '50px'}}>
+      <div className={styles.wrapper_swiper}>
         <TitleCart title={title}  />
         <Swiper
           slidesPerView={"auto"}
@@ -25,11 +25,11 @@ const SwiperCart: React.FC<PropsSwiperCart> = ({title, data}) => {
           modules={[FreeMode, Navigation]}
           className="swiper_cart"
         >
-          {data.slice(0, 15).map((data: { external_data: { app_id: any; }; }) => {
+          {data.slice(0, 15).map((data: { slug: any; }) => {
             return (
               <>
                 <SwiperSlide>
-                  <Link style={{textDecoration: 'none'}} href={`${data.external_data.app_id}`}>
+                  <Link style={{textDecoration: 'none'}} href={`/catalog/${data.slug}`}>
                     <ImageCart data={data} />
                     <DescriptionCart data={data} />
                   </Link>

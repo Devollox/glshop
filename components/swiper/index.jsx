@@ -11,16 +11,11 @@ const Swiper = () => {
 
   return (
     <>
-      <div className={styles.wrapper_slider}>
-        <div className={styles.slider}>
-          <div className={styles.container}>
-            {size.width <= 832 ? <SwiperMobile />: <SwiperDesktop />}
-          </div>
-        </div>
+      <div className={styles.container}>
+        {size.width <= 832 ? <SwiperMobile />: <SwiperDesktop />}
       </div>
     </>
   )
 }
 
-/* Swipper.js uses TypeScript very poorly. Then correct the error on line 47  */
 export default Swiper

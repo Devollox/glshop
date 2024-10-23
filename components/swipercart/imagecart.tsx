@@ -3,9 +3,10 @@ import React from "react";
 
 interface Props {
   data?: any
+  stylesBlockWidth?: any
 }
 
-const ImageCart:React.FC<Props> = ({data}) => {
+const ImageCart:React.FC<Props> = ({data, stylesBlockWidth}) => {
   const regions: any = {
     "Весь мир": "globe-showing-asia-australia-svgrepo-com",
     "Весь мир (Без СНГ)": "globe-showing-asia-australia-svgrepo-com",
@@ -18,7 +19,7 @@ const ImageCart:React.FC<Props> = ({data}) => {
 
   return (
     <>
-      <div className={styles.cart}>
+      <div style={{width: `${stylesBlockWidth}`}} className={styles.cart}>
         <div className={styles.mixing_cart}>
           <div className={styles.product_card_tag_top}>
             <div className={styles.product_card_tag}>

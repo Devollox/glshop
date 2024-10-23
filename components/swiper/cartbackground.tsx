@@ -11,11 +11,14 @@ interface Props {
   img: string;
   description: string;
   exclusive: string;
+  slug?: string
   children?: React.ReactNode;
 }
 
-const CartBackground: React.FC<Props> = ({title, alt, img, description, exclusive, children}) => {
+const CartBackground: React.FC<Props> = ({title, alt, img, description, exclusive, slug, children}) => {
   const gamesTags = data.find(item => item.idImg === `${img}`)?.tag;
+  // @ts-ignore
+  const gamesSlugs = data.find((game => game.slug === slug)).slug;
 
   return (
     <>
@@ -66,7 +69,8 @@ const CartBackground: React.FC<Props> = ({title, alt, img, description, exclusiv
               </div>
               <p className={styles.banner_carousel_slide_title_text}>{title}</p>
               <p className={styles.banner_carousel_slide_description}>{description}</p>
-              <Link style={{textDecoration: 'none'}} href={`/${img}`}>
+
+              <Link style={{textDecoration: 'none'}} href={`/catalog/${gamesSlugs}`}>
                 <span className={styles.banner_carousel_slide_link}>Купить</span>
               </Link>
             </div>

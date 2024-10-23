@@ -11,7 +11,7 @@ const MarqueeSlide = () => {
       <Marquee className={styles.marguee} style={{marginBottom: '100px'}}>
         {data_all.slice(0, 200).map(data => {
           return (
-            <Link style={{textDecoration: 'none', color: 'white', opacity: '.9'}} href={`${data.external_data.app_id}`}>
+            <Link style={{textDecoration: 'none', color: 'white', opacity: '.9'}} href={`/catalog/${data.slug}`}>
               <div className={styles.marquee_item}>
                 <img src={`${data.picture_url}`} loading="lazy" alt={`${data.name}`}/>
                 <p>{data.name}</p>

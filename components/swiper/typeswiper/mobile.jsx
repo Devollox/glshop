@@ -22,7 +22,7 @@ const SwiperMobile = () => {
         {data.slice(0, 5).map(data => {
           return (
             <SwiperSlide>
-              <CartBackground exclusive={data.exclusive} alt={data.title} title={data.title} img={data.idImg} description={data.description} />
+              <CartBackground slug={data.slug} exclusive={data.exclusive} alt={data.title} title={data.title} img={data.idImg} description={data.description} />
             </SwiperSlide>
           )
         })}
