@@ -9,7 +9,7 @@ const Cart = () => {
   return (
     <>
      <Page title={"Cart"}>
-       <MainContent>
+       <MainContent height={"100%"} margin={'0 0 0 0'}>
          <></>
        </MainContent>
        <TapBar catalog={".5"} cart={"1"} main={".5"} />
