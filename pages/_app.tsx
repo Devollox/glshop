@@ -29,7 +29,7 @@ const MyApp: React.FC<Props> = ({Component, pageProps}) => {
           </div>
           <div>
             <MarqueeSlide/>
-            <MainContent>
+            <MainContent height={"100%"} margin={'0 0 0 0'}>
               <Footer/>
             </MainContent>
           </div>
