@@ -11,7 +11,7 @@ interface Props {
 }
 
 const MoreCards: React.FC<Props> = ({data}) => {
-  const [slide, setSlide] = useState(0)
+  const [slide, setSlide] = useState(10)
 
   return (
     <>
@@ -24,7 +24,7 @@ const MoreCards: React.FC<Props> = ({data}) => {
                gridTemplateColumns: "repeat(6, 1fr)",
                gridTemplateRows: "1fr"
              }}>
-          {data.slice(0, 10 + slide).map((data: { slug: any; }) => {
+          {data.slice(0, slide).map((data: { slug: any; }) => {
             return (
               <>
                 <div className='swiper-slide' style={{margin: "50px 0 0 0"}}>

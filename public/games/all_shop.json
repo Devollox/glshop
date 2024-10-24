@@ -1209,89 +1209,6 @@
       "is_available_in_russia": true
     },
     {
-      "id": 2022456,
-      "name": "Black Myth: Wukong",
-      "price": 5999,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "BMWDERUCISST",
-      "slug": "black-myth-wukong-deluxe-edition-steam-rucis",
-      "old_price": null,
-      "price_in_gold": "5999",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/2358720/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "Россия+СНГ",
-        "platform": "Steam",
-        "h1_title": "Black Myth: Wukong Deluxe Edition Steam Россия+СНГ",
-        "constrains": "Ключ активируется только в странах: Россия, Украина, Казахстан + страны Латинской Амреики",
-        "meta_description": "Купите ключ 🗝 Black Myth: Wukong Deluxe Edition Steam Россия+СНГ дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "🗝 Купить ключ Black Myth: Wukong Deluxe Edition Steam Россия+СНГ",
-        "instructions": "Инструкция по активации ключа Steam\nЕсли не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.\nЗапустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.\nВойдите в меню «Игры» и выберите пункт «Активировать через Steam».\nПримите пользовательское соглашение Steam.\nВведите ключ активации (для его получения необходимо купить игру).\nПосле активации вам будет предложено скачать купленную игру ",
-        "app_id": "2358720",
-        "product_details": {
-          "title": "Издание",
-          "value": "Deluxe Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 680,
-      "tags": [
-        {
-          "id": 174,
-          "title": null,
-          "image": "",
-          "ru_name": "Популярные игры",
-          "en_name": "Popular Games"
-        },
-        {
-          "id": 175,
-          "title": null,
-          "image": "",
-          "ru_name": "Новинки",
-          "en_name": "New Items"
-        },
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 110,
-          "title": null,
-          "image": "",
-          "ru_name": "Ролевые игры",
-          "en_name": "RPG"
-        },
-        {
-          "id": 108,
-          "title": null,
-          "image": "",
-          "ru_name": "Приключенческие игры",
-          "en_name": "Adventure"
-        },
-        {
-          "id": 2,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/flag-for-flag-russia-svgrepo-com 1.svg",
-          "ru_name": "Россия+СНГ",
-          "en_name": "RU+CIS"
-        }
-      ],
-      "stock": 0,
-      "is_available_in_russia": true
-    },
-    {
       "id": 1422814,
       "name": "Red Dead Redemption 2",
       "price": 2499,
@@ -1602,66 +1519,6 @@
       "is_available_in_russia": true
     },
     {
-      "id": 2298351,
-      "name": "Sonic X Shadow Generations",
-      "price": 7399,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "SXSGDDEGLST",
-      "slug": "sonic-x-shadow-generations-digital-deluxe-edition-steam-gl",
-      "old_price": null,
-      "price_in_gold": "7399",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/2513280/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "Весь мир",
-        "platform": "Steam",
-        "h1_title": "Sonic X Shadow Generations Digital Deluxe Edition Steam Весь мир",
-        "meta_description": "Купите ключ Sonic X Shadow Generations Digital Deluxe Edition Steam Весь мир дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить Sonic X Shadow Generations Digital Deluxe Edition Steam Весь мир",
-        "app_id": "2513280",
-        "product_details": {
-          "title": "Издание",
-          "value": "Digital Deluxe Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 1605,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 1,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/globe-showing-asia-australia-svgrepo-com 1.svg",
-          "ru_name": "Весь мир",
-          "en_name": "GL"
-        },
-        {
-          "id": 176,
-          "title": null,
-          "image": "",
-          "ru_name": "Предзаказы",
-          "en_name": "Pre-order"
-        }
-      ],
-      "stock": 0,
-      "is_available_in_russia": true
-    },
-    {
       "id": 2022258,
       "name": "Farming Simulator 25",
       "price": 1699,
@@ -1721,68 +1578,6 @@
         }
       ],
       "stock": 0,
-      "is_available_in_russia": true
-    },
-    {
-      "id": 2272768,
-      "name": "Taiko no Tatsujin: Rhythm Festival",
-      "price": 5999,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "TNTRFTSERUCISST",
-      "slug": "taiko-no-tatsujin-rhythm-festival-the-setlist-edition-steam-rucis",
-      "old_price": null,
-      "price_in_gold": "5999",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/2288630/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "Россия+СНГ",
-        "platform": "Steam",
-        "h1_title": "Taiko no Tatsujin: Rhythm Festival The Setlist Edition Steam Россия+СНГ",
-        "geo_restrict": "Активируется только в регионах: Россия+СНГ",
-        "meta_description": "Купите ключ Taiko no Tatsujin: Rhythm Festival The Setlist Edition Steam Россия+СНГ дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить Taiko no Tatsujin: Rhythm Festival The Setlist Edition Steam Россия+СНГ",
-        "instructions": "Инструкция по активации ключа Steam\nЕсли не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.\nЗапустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.\nВойдите в меню «Игры» и выберите пункт «Активировать через Steam».\nПримите пользовательское соглашение Steam.\nВведите ключ активации (для его получения необходимо купить игру).\nПосле активации вам будет предложено скачать купленную игру ",
-        "app_id": "2288630",
-        "product_details": {
-          "title": "Издание",
-          "value": "The Setlist Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 944,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 176,
-          "title": null,
-          "image": "",
-          "ru_name": "Предзаказы",
-          "en_name": "Pre-order"
-        },
-        {
-          "id": 2,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/flag-for-flag-russia-svgrepo-com 1.svg",
-          "ru_name": "Россия+СНГ",
-          "en_name": "RU+CIS"
-        }
-      ],
-      "stock": null,
       "is_available_in_russia": true
     },
     {
@@ -1969,67 +1764,6 @@
       "is_available_in_russia": true
     },
     {
-      "id": 2298348,
-      "name": "Kingdom Come: Deliverance II",
-      "price": 3999,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "KCDISECISST",
-      "slug": "kingdom-come-deliverance-ii-steam-cis-no-ru-no-rb",
-      "old_price": null,
-      "price_in_gold": "3999",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/1771300/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "СНГ (Без РФ и РБ)",
-        "platform": "Steam",
-        "h1_title": "Kingdom Come: Deliverance II Steam СНГ (Без РФ и РБ)",
-        "geo_restrict": "Активируется только в регионах: СНГ (Без РФ и РБ)",
-        "meta_description": "Купите ключ Kingdom Come: Deliverance II Steam СНГ (Без РФ и РБ) дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить Kingdom Come: Deliverance II Steam СНГ (Без РФ и РБ)",
-        "app_id": "1771300",
-        "product_details": {
-          "title": "Издание",
-          "value": "Standard Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 1604,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 176,
-          "title": null,
-          "image": "",
-          "ru_name": "Предзаказы",
-          "en_name": "Pre-order"
-        },
-        {
-          "id": 179,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/Flag_of_the_CIS 1.svg",
-          "ru_name": "СНГ (Без РФ и РБ)",
-          "en_name": "CIS (NO RU, NO RB)"
-        }
-      ],
-      "stock": 0,
-      "is_available_in_russia": false
-    },
-    {
       "id": 2298346,
       "name": "Kingdom Come: Deliverance II",
       "price": 6899,
@@ -2085,189 +1819,6 @@
           "image": "https://cdn.kupikod.com/shop/regions/globe-showing-asia-australia-svgrepo-com 1.svg",
           "ru_name": "Весь мир (Без РФ)",
           "en_name": "GL (NO RU)"
-        }
-      ],
-      "stock": 0,
-      "is_available_in_russia": false
-    },
-    {
-      "id": 2298347,
-      "name": "Kingdom Come: Deliverance II",
-      "price": 8999,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "KCDIGEGLST",
-      "slug": "kingdom-come-deliverance-ii-gold-edition-steam-gl-no-ru",
-      "old_price": null,
-      "price_in_gold": "8999",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/1771300/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "Весь мир (Без РФ)",
-        "platform": "Steam",
-        "h1_title": "Kingdom Come: Deliverance II Gold Edition Steam Весь мир (Без РФ)",
-        "geo_restrict": "Активируется только в регионах: Весь мир (Без РФ)",
-        "meta_description": "Купите ключ Kingdom Come: Deliverance II Gold Edition Steam Весь мир (Без РФ) дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить Kingdom Come: Deliverance II Gold Edition Steam Весь мир (Без РФ)",
-        "app_id": "1771300",
-        "product_details": {
-          "title": "Издание",
-          "value": "Gold Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 1604,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 176,
-          "title": null,
-          "image": "",
-          "ru_name": "Предзаказы",
-          "en_name": "Pre-order"
-        },
-        {
-          "id": 218,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/globe-showing-asia-australia-svgrepo-com 1.svg",
-          "ru_name": "Весь мир (Без РФ)",
-          "en_name": "GL (NO RU)"
-        }
-      ],
-      "stock": 0,
-      "is_available_in_russia": false
-    },
-    {
-      "id": 2298349,
-      "name": "Kingdom Come: Deliverance II",
-      "price": 5299,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "KCDIGECISST",
-      "slug": "kingdom-come-deliverance-ii-gold-edition-rockstar-cis-no-ru-no-rb",
-      "old_price": null,
-      "price_in_gold": "5299",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/1771300/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "СНГ (Без РФ и РБ)",
-        "platform": "Rockstar",
-        "h1_title": "Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ)",
-        "geo_restrict": "Активируется только в регионах: СНГ (Без РФ и РБ)",
-        "meta_description": "Купите ключ Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ) дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ)",
-        "app_id": "1771300",
-        "product_details": {
-          "title": "Издание",
-          "value": "Gold Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 1604,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 176,
-          "title": null,
-          "image": "",
-          "ru_name": "Предзаказы",
-          "en_name": "Pre-order"
-        },
-        {
-          "id": 179,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/Flag_of_the_CIS 1.svg",
-          "ru_name": "СНГ (Без РФ и РБ)",
-          "en_name": "CIS (NO RU, NO RB)"
-        }
-      ],
-      "stock": 0,
-      "is_available_in_russia": false
-    },
-    {
-      "id": 2298349,
-      "name": "Kingdom Come: Deliverance II",
-      "price": 5299,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "KCDIGECISST",
-      "slug": "kingdom-come-deliverance-ii-gold-edition-steam-cis-no-ru-no-rb",
-      "old_price": null,
-      "price_in_gold": "5299",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/1771300/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "СНГ (Без РФ и РБ)",
-        "platform": "Steam",
-        "h1_title": "Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ)",
-        "geo_restrict": "Активируется только в регионах: СНГ (Без РФ и РБ)",
-        "meta_description": "Купите ключ Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ) дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ)",
-        "app_id": "1771300",
-        "product_details": {
-          "title": "Издание",
-          "value": "Gold Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 1604,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 176,
-          "title": null,
-          "image": "",
-          "ru_name": "Предзаказы",
-          "en_name": "Pre-order"
-        },
-        {
-          "id": 179,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/Flag_of_the_CIS 1.svg",
-          "ru_name": "СНГ (Без РФ и РБ)",
-          "en_name": "CIS (NO RU, NO RB)"
         }
       ],
       "stock": 0,
@@ -2459,6 +2010,67 @@
       "is_available_in_russia": true
     },
     {
+      "id": 2298349,
+      "name": "Kingdom Come: Deliverance II",
+      "price": 5299,
+      "currency": "rub",
+      "type": 28,
+      "external_id": "KCDIGECISST",
+      "slug": "kingdom-come-deliverance-ii-gold-edition-steam-cis-no-ru-no-rb",
+      "old_price": null,
+      "price_in_gold": "5299",
+      "for_sale": true,
+      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/1771300/library_600x900.jpg",
+      "external_data": {
+        "product_type": "Game",
+        "region": "СНГ (Без РФ и РБ)",
+        "platform": "Steam",
+        "h1_title": "Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ)",
+        "geo_restrict": "Активируется только в регионах: СНГ (Без РФ и РБ)",
+        "meta_description": "Купите ключ Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ) дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
+        "meta_title": "Купить Kingdom Come: Deliverance II Gold Edition Steam СНГ (Без РФ и РБ)",
+        "app_id": "1771300",
+        "product_details": {
+          "title": "Издание",
+          "value": "Gold Edition",
+          "currency": ""
+        }
+      },
+      "product_group_id": 1604,
+      "tags": [
+        {
+          "id": 61,
+          "title": null,
+          "image": "",
+          "ru_name": "Игра",
+          "en_name": "Game"
+        },
+        {
+          "id": 15,
+          "title": null,
+          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
+          "ru_name": "Steam",
+          "en_name": "Steam"
+        },
+        {
+          "id": 176,
+          "title": null,
+          "image": "",
+          "ru_name": "Предзаказы",
+          "en_name": "Pre-order"
+        },
+        {
+          "id": 179,
+          "title": null,
+          "image": "https://cdn.kupikod.com/shop/regions/Flag_of_the_CIS 1.svg",
+          "ru_name": "СНГ (Без РФ и РБ)",
+          "en_name": "CIS (NO RU, NO RB)"
+        }
+      ],
+      "stock": 0,
+      "is_available_in_russia": false
+    },
+    {
       "id": 2272767,
       "name": "Taiko no Tatsujin: Rhythm Festival",
       "price": 3999,
@@ -2518,173 +2130,6 @@
         }
       ],
       "stock": null,
-      "is_available_in_russia": true
-    },
-    {
-      "id": 2208042,
-      "name": "Frostpunk 2",
-      "price": 1799,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "F2SERUCISST",
-      "slug": "frostpunk-2-steam-rucis",
-      "old_price": null,
-      "price_in_gold": "1799",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/1601580/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "Россия+СНГ",
-        "platform": "Steam",
-        "h1_title": "Frostpunk 2 Steam Россия+СНГ",
-        "geo_restrict": "Активируется только в регионах: Россия+СНГ",
-        "meta_description": "Купите ключ Frostpunk 2 Steam Россия+СНГ дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить Frostpunk 2 Steam Россия+СНГ",
-        "instructions": "Инструкция по активации ключа Steam\nЕсли не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.\nЗапустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.\nВойдите в меню «Игры» и выберите пункт «Активировать через Steam».\nПримите пользовательское соглашение Steam.\nВведите ключ активации (для его получения необходимо купить игру).\nПосле активации вам будет предложено скачать купленную игру ",
-        "app_id": "1601580",
-        "product_details": {
-          "title": "Издание",
-          "value": "Standard Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 827,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 107,
-          "title": null,
-          "image": "",
-          "ru_name": "Стратегии",
-          "en_name": "Strategy"
-        },
-        {
-          "id": 106,
-          "title": null,
-          "image": "",
-          "ru_name": "Симуляторы",
-          "en_name": "Simulation"
-        },
-        {
-          "id": 166,
-          "title": null,
-          "image": "",
-          "ru_name": "Июль",
-          "en_name": "July"
-        },
-        {
-          "id": 159,
-          "title": null,
-          "image": "",
-          "ru_name": "2024",
-          "en_name": "2024"
-        },
-        {
-          "id": 2,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/flag-for-flag-russia-svgrepo-com 1.svg",
-          "ru_name": "Россия+СНГ",
-          "en_name": "RU+CIS"
-        },
-        {
-          "id": 174,
-          "title": null,
-          "image": "",
-          "ru_name": "Популярные игры",
-          "en_name": "Popular Games"
-        },
-        {
-          "id": 175,
-          "title": null,
-          "image": "",
-          "ru_name": "Новинки",
-          "en_name": "New Items"
-        }
-      ],
-      "stock": 25,
-      "is_available_in_russia": true
-    },
-    {
-      "id": 1913373,
-      "name": "God of War Ragnarök",
-      "price": 5699,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "GOWRSEGLST",
-      "slug": "god-of-war-ragnarok-steam-gl-no-cis",
-      "old_price": null,
-      "price_in_gold": "5699",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/2322010/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "Весь мир (Без СНГ)",
-        "platform": "Steam",
-        "h1_title": "God of War Ragnarök Steam Весь мир (Без СНГ)",
-        "geo_restrict": "Активируется только в регионах: Весь мир (Без СНГ)",
-        "constrains": "Регион: РФ, страны Евросоюза, Турция, Северная Америка.",
-        "meta_description": "Купите ключ God of War Ragnarök Steam Весь мир (Без СНГ) дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить ключ God of War Ragnarök Steam Весь мир (Без СНГ)",
-        "instructions": "Инструкция по активации ключа Steam\nЕсли не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.\nЗапустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.\nВойдите в меню «Игры» и выберите пункт «Активировать через Steam».\nПримите пользовательское соглашение Steam.\nВведите ключ активации (для его получения необходимо купить игру).\nПосле активации вам будет предложено скачать купленную игру ",
-        "app_id": "2322010",
-        "product_details": {
-          "title": "Издание",
-          "value": "Standard Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 533,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 174,
-          "title": null,
-          "image": "",
-          "ru_name": "Популярные игры",
-          "en_name": "Popular Games"
-        },
-        {
-          "id": 175,
-          "title": null,
-          "image": "",
-          "ru_name": "Новинки",
-          "en_name": "New Items"
-        },
-        {
-          "id": 181,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/globe-showing-asia-australia-svgrepo-com 1.svg",
-          "ru_name": "Весь мир (Без СНГ)",
-          "en_name": "GL (NO CIS)"
-        }
-      ],
-      "stock": 8,
       "is_available_in_russia": true
     },
     {
@@ -2783,161 +2228,6 @@
         }
       ],
       "stock": 0,
-      "is_available_in_russia": true
-    },
-    {
-      "id": 2203564,
-      "name": "God of War Ragnarök",
-      "price": 4699,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "GOWRSECISST",
-      "slug": "god-of-war-ragnarok-steam-cis-no-ru-no-rb",
-      "old_price": null,
-      "price_in_gold": "4699",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/2322010/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "СНГ (Без РФ и РБ)",
-        "platform": "Steam",
-        "h1_title": "God of War Ragnarök Steam СНГ (Без РФ и РБ)",
-        "geo_restrict": "Активируется только в регионах: СНГ (Без РФ и РБ)",
-        "constrains": "Работает в: Беларусь (BY), Казахстан (KZ), Украина (UA), Армения (AM), Азербайджан (AZ), Грузия (GE), Кыргызстан (KG), Молдова (MD), Таджикистан (TJ), Туркменистан (TM), Узбекистан (UZ).",
-        "meta_description": "Купите ключ God of War Ragnarök Steam СНГ (Без РФ и РБ) дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить God of War Ragnarök Steam СНГ (Без РФ и РБ)",
-        "instructions": "Инструкция по активации ключа Steam\nЕсли не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.\nЗапустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.\nВойдите в меню «Игры» и выберите пункт «Активировать через Steam».\nПримите пользовательское соглашение Steam.\nВведите ключ активации (для его получения необходимо купить игру).\nПосле активации вам будет предложено скачать купленную игру ",
-        "app_id": "2322010",
-        "product_details": {
-          "title": "Издание",
-          "value": "Standard Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 533,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 175,
-          "title": null,
-          "image": "",
-          "ru_name": "Новинки",
-          "en_name": "New Items"
-        },
-        {
-          "id": 179,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/Flag_of_the_CIS 1.svg",
-          "ru_name": "СНГ (Без РФ и РБ)",
-          "en_name": "CIS (NO RU, NO RB)"
-        }
-      ],
-      "stock": 15,
-      "is_available_in_russia": false
-    },
-    {
-      "id": 1423217,
-      "name": "Ghost of Tsushima",
-      "price": 5699,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "GOTSCSEGLST",
-      "slug": "ghost-of-tsushima-directors-cut-steam-gl-no-cis",
-      "old_price": null,
-      "price_in_gold": "5699",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/2215430/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "Весь мир (Без СНГ)",
-        "platform": "Steam",
-        "h1_title": "Ghost of Tsushima DIRECTOR'S CUT Steam Весь мир (Без СНГ)",
-        "geo_restrict": "Активируется только в регионах: Весь мир (Без СНГ)",
-        "constrains": "Регион использования: РФ, Турция, Украина, Евросоюз(за исключением прибалтийских стран Эстонии, Латвии, Литвы).",
-        "description": "<div class=\"product-description static-text\">\n <span style=\"font-weight: 400;\"><strong>Регион использования: РФ, Турция, Украина, Евросоюз(за исключением прибалтийских стран Эстонии, Латвии, Литвы).</strong></span>\n Дата выхода: 16 мая 2024.\n <h4><span style=\"font-weight: 400;\">Игра доступна на ПК и PS5. На данной странице представлен Steam-ключ Ghost of Tsushima DIRECTOR'S CUT для Windows. Эта версия игры не имеет региональных ограничений и может быть активирована на любом аккаунте.</span></h4>\n <h4><span style=\"font-weight: 400;\">Ghost of Tsushima DIRECTOR'S CUT — это ремастер одноименной игры от студии Sucker Punch Productions. События разворачиваются в XIII веке на острове Цусима во время первого монгольского вторжения в Японию. Игроки берут на себя роль последнего самурая Дзина Сакая, вынужденного отступить от традиционного пути воина и стать хитрым, беспринципным Призраком, чтобы изгнать монгольских захватчиков.</span></h4>\n <h2><span style=\"font-weight: 400;\">Купить ключ для Ghost of Tsushima DIRECTOR'S CUT на Steam</span></h2>\n <span style=\"font-weight: 400;\">Стандартное издание включает:</span>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Базовую игру</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">DLC «Остров Ики»</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Разблокированный фреймрейт, поддержку технологий улучшения графики от AMD, Intel и NVidia</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Поддержку клавиатуры или контроллера DualSense</span></li>\n </ul>\n <h3><span style=\"font-weight: 400;\">Особенности Ghost of Tsushima DIRECTOR'S CUT:</span></h3>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Захватывающая история в духе старых самурайских легенд</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Открытый живописный мир феодальной Японии для исследования</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Разнообразный геймплей — стелс, рукопашный бой, верховая езда и т.д.</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Кинематографичная картинка и захватывающие бои</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Многочасовое эпичное дополнение «Остров Ики»</span></li>\n </ul>\n <span style=\"font-weight: 400;\">Остров Цусима захвачен монгольскими войсками под предводительством безжалостного генерала. Некогда почитаемый самурай Дзин Сакай оказывается втянут в кровопролитный конфликт и вынужден отринуть древние кодексы воинов, чтобы защитить свой дом от захватчиков любой ценой.</span>\n <span style=\"font-weight: 400;\">В роли Дзина вы отправитесь в головокружительное приключение по живописным просторам Цусимы. Вам предстоит выполнять задания, исследовать укрытия врагов, участвовать в эпичных сражениях в открытом бою и скрытно убивать противников из тени.</span>\n <span style=\"font-weight: 400;\">После завершения основной кампании вас ждет самобытное масштабное дополнение «Остров Ики», открывающее новую запутанную историю с мистическими мотивами. На острове обитает загадочная колдунья Анхсар-хатун, ведущая борьбу за независимость от власти самураев. Дзину предстоит отыскать и победить ее, разгадав древние тайны.</span>\n <h2><span style=\"font-weight: 400;\">Системные требования Ghost of Tsushima DIRECTOR'S CUT:</span></h2>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><b>Минимальные:</b>\n <ul>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">64-разрядные процессор и операционная система</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>ОС:</b><span style=\"font-weight: 400;\"> TBD</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Процессор:</b><span style=\"font-weight: 400;\"> TBD</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Видеокарта:</b><span style=\"font-weight: 400;\"> TBD</span></li>\n </ul>\n </li>\n </ul>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><b>Рекомендованные:</b>\n <ul>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">64-разрядные процессор и операционная система</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>ОС:</b><span style=\"font-weight: 400;\"> TBD</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Процессор:</b><span style=\"font-weight: 400;\"> TBD</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Видеокарта:</b><span style=\"font-weight: 400;\"> TBD</span></li>\n </ul>\n </li>\n </ul>\n <h2><span style=\"font-weight: 400;\">Купить ключ Ghost of Tsushima DIRECTOR'S CUT на Kupikod</span></h2>\n <span style=\"font-weight: 400;\">Хотите пережить эпическое самурайское приключение с открытым миром? Ключ для активации Steam-версии Ghost of Tsushima DIRECTOR'S CUT можно купить на Kupikod. Не упустите возможность окунуться в захватывающий мир Древней Японии!</span>\n <h3><span style=\"font-weight: 400;\">Инструкция по активации ключа Steam Ghost of Tsushima DIRECTOR'S CUT</span></h3>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Если не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Запустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Войдите в меню «Игры» и выберите пункт «Активировать через Steam».</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Примите пользовательское соглашение Steam.</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Введите ключ активации (для его получения необходимо купить игру).</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">После активации вам будет предложено скачать игру.</span></li>\n </ul>\n </div>",
-        "meta_description": "Купите ключ Ghost of Tsushima DIRECTOR'S CUT Steam Весь мир (Без СНГ) дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить ключ Ghost of Tsushima DIRECTOR'S CUT Steam Весь мир (Без СНГ)",
-        "instructions": "Инструкция по активации ключа Steam\nЕсли не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.\nЗапустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.\nВойдите в меню «Игры» и выберите пункт «Активировать через Steam».\nПримите пользовательское соглашение Steam.\nВведите ключ активации (для его получения необходимо купить игру).\nПосле активации вам будет предложено скачать купленную игру ",
-        "app_id": "2215430",
-        "product_details": {
-          "title": "Издание",
-          "value": "DIRECTOR'S CUT",
-          "currency": ""
-        }
-      },
-      "product_group_id": 518,
-      "tags": [
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 108,
-          "title": null,
-          "image": "",
-          "ru_name": "Приключенческие игры",
-          "en_name": "Adventure"
-        },
-        {
-          "id": 109,
-          "title": null,
-          "image": "",
-          "ru_name": "Экшены",
-          "en_name": "Action"
-        },
-        {
-          "id": 159,
-          "title": null,
-          "image": "",
-          "ru_name": "2024",
-          "en_name": "2024"
-        },
-        {
-          "id": 175,
-          "title": null,
-          "image": "",
-          "ru_name": "Новинки",
-          "en_name": "New Items"
-        },
-        {
-          "id": 174,
-          "title": null,
-          "image": "",
-          "ru_name": "Популярные игры",
-          "en_name": "Popular Games"
-        },
-        {
-          "id": 181,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/globe-showing-asia-australia-svgrepo-com 1.svg",
-          "ru_name": "Весь мир (Без СНГ)",
-          "en_name": "GL (NO CIS)"
-        }
-      ],
-      "stock": 6,
       "is_available_in_russia": true
     },
     {
@@ -3695,68 +2985,6 @@
           "image": "https://cdn.kupikod.com/shop/regions/flag-for-flag-russia-svgrepo-com 1.svg",
           "ru_name": "Россия+СНГ",
           "en_name": "RU+CIS"
-        }
-      ],
-      "stock": 0,
-      "is_available_in_russia": true
-    },
-    {
-      "id": 1422876,
-      "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
-      "price": 5999,
-      "currency": "rub",
-      "type": 28,
-      "external_id": "S2HOCUEGLST",
-      "slug": "s-t-a-l-k-e-r-2-heart-of-chornobyl-ultimate-edition-steam-gl",
-      "old_price": null,
-      "price_in_gold": "5999",
-      "for_sale": true,
-      "picture_url": "https://steamcdn-a.akamaihd.net/steam/apps/1643320/library_600x900.jpg",
-      "external_data": {
-        "product_type": "Game",
-        "region": "Весь мир",
-        "platform": "Steam",
-        "h1_title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl Ultimate Edition Steam Весь мир",
-        "description": "<div class=\"product-description static-text\">\n <strong>Обратите внимание! Вы покупаете предзаказ – игра ещё не вышла. Ключ придет после официального релиза игры.</strong>\n <b>Дата выхода игры:</b><span style=\"font-weight: 400;\"> 20 ноября 2024 г.</span>\n <span style=\"font-weight: 400;\">Игра будет доступна на ПК, PlayStation 5 и Xbox Series X|S. На данной странице представлен ключ для активации глобальной Steam-версии S.T.A.L.K.E.R. 2: Сердце Чернобыля Ultimate Edition.</span>\n <span style=\"font-weight: 400;\">S.T.A.L.K.E.R. 2: Heart of Chornobyl Ultimate Edition — это расширенное издание ожидаемого шутера от первого лица во вселенной S.T.A.L.K.E.R. Главный герой путешествует по опасной зоне вокруг Чернобыльской АЭС. Его ждут захватывающие приключения, экшен и элементы хоррора.</span>\n <h2><span style=\"font-weight: 400;\">Купить ключ для S.T.A.L.K.E.R. 2: Heart of Chornobyl Ultimate Edition на Steam</span></h2>\n <span style=\"font-weight: 400;\">Ultimate Edition включает:</span>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Базовая игра S.T.A.L.K.E.R. 2: Heart of Chornobyl</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Бонусы за предзаказ</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Эксклюзивный контент Steam</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Уникальный квест</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Цифровой артбук</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">1 скин персонажа и 3 оружейных скина для синглплеера</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">3 скина персонажа и 7 оружейных скинов для мультиплеера (TBA)</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">2 крупных DLC (TBA)</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Сезонный пропуск (доступ ко всему загружаемому контенту, кроме двух крупных DLC)</span></li>\n </ul>\n <h3><span style=\"font-weight: 400;\">Особенности S.T.A.L.K.E.R. 2:</span></h3>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Продолжение культовой серии S.T.A.L.K.E.R.</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Нелинейный сюжет в атмосферном мире</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Реалистичная графика на движке Unreal Engine 5</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Элементы хоррора и выживания в постапокалипсисе</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Многопользовательский режим</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Поддержка модификаций</span></li>\n </ul>\n <span style=\"font-weight: 400;\">S.T.A.L.K.E.R. 2: Сердце Чернобыля продолжает легендарную серию игр в жанре фантастического боевика. Вы окунетесь в мрачный постапокалиптический мир вокруг Чернобыльской зоны отчуждения.</span>\n <span style=\"font-weight: 400;\">Вас ждет увлекательный нелинейный сюжет с элементами хоррора и симулятора выживания. Предстоит исследовать обширные открытые локации, выполнять задания, сражаться с опасными мутантами и сталкерами.</span>\n <span style=\"font-weight: 400;\">Графика создана на новейшем движке Unreal Engine 5 с использованием технологий захвата движения. Благодаря этому достигнут высочайший уровень реализма и детализации.</span>\n <span style=\"font-weight: 400;\">Игра поддерживает модификации и получит многопользовательский режим после релиза в виде бесплатного обновления.</span>\n <h2><span style=\"font-weight: 400;\">Системные требования S.T.A.L.K.E.R. 2: Heart of Chornobyl:</span></h2>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><b>Минимальные:</b> \n <ul>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>ОС:</b><span style=\"font-weight: 400;\"> Windows 10, Windows 11</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Процессор:</b><span style=\"font-weight: 400;\"> AMD Ryzen 5 1600X / Intel Core i5-7600K</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Оперативная память:</b><span style=\"font-weight: 400;\"> 8 GB ОЗУ</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Видеокарта:</b><span style=\"font-weight: 400;\"> AMD Radeon RX 580 8GB / NVIDIA GeForce GTX 1060 6GB</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Место на диске:</b><span style=\"font-weight: 400;\"> 150 GB</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Дополнительно:</b><span style=\"font-weight: 400;\"> SSD</span></li>\n </ul>\n </li>\n </ul>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><b>Рекомендованные:</b> \n <ul>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>ОС:</b><span style=\"font-weight: 400;\"> Windows 10, Windows 11</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Процессор:</b><span style=\"font-weight: 400;\"> AMD Ryzen 7 3700X / Intel Core i7-9700K</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Оперативная память:</b><span style=\"font-weight: 400;\"> 16 GB ОЗУ</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Видеокарта:</b><span style=\"font-weight: 400;\"> AMD Radeon RX 5700 XT 8GB / NVIDIA GeForce RTX 2070 SUPER 8GB / NVIDIA GeForce GTX 1080 Ti 11GB</span></li>\n <li aria-level=\"2\" style=\"font-weight: 400;\"><b>Место на диске:</b><span style=\"font-weight: 400;\"> 150 GB</span></li>\n </ul>\n </li>\n </ul>\n <h2><span style=\"font-weight: 400;\">Купить ключ S.T.A.L.K.E.R. 2: Heart of Chornobyl Ultimate Edition на Kupikod</span></h2>\n <span style=\"font-weight: 400;\">Хотите стать частью легендарной вселенной S.T.A.L.K.E.R.? Ключи для активации глобальной Steam-версии S.T.A.L.K.E.R. 2: Сердце Чернобыля Ultimate Edition можно купить на сайте Kupikod.</span>\n <span style=\"font-weight: 400;\">Приобретайте игру по выгодной цене, чтобы окунуться в захватывающие приключения в зоне отчуждения!</span>\n <h3><span style=\"font-weight: 400;\">Инструкция по активации ключа Steam S.T.A.L.K.E.R. 2: Heart of Chornobyl Ultimate Edition</span></h3>\n <ul>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Если не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Запустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Войдите в меню «Игры» и выберите пункт «Активировать через Steam».</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Примите пользовательское соглашение Steam.</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">Введите ключ активации (для его получения необходимо купить игру).</span></li>\n <li aria-level=\"1\" style=\"font-weight: 400;\"><span style=\"font-weight: 400;\">После активации вам будет предложено скачать игру.</span></li>\n </ul>\n </div>",
-        "meta_description": "Купите ключ S.T.A.L.K.E.R. 2: Heart of Chornobyl Ultimate Edition Steam Весь мир дёшево в магазине KupiKod. Получите ключ на e-mail и активируйте его",
-        "meta_title": "Купить ключ S.T.A.L.K.E.R. 2: Heart of Chornobyl Ultimate Edition Steam Весь мир",
-        "instructions": "Инструкция по активации ключа Steam\nЕсли не установлен Steam клиент, скачайте его для Windows (клиент также доступен на Mac и Linux) и установите.\nЗапустите Steam, зайдите в свой аккаунт или зарегистрируйте новый, если у вас его еще нет.\nВойдите в меню «Игры» и выберите пункт «Активировать через Steam».\nПримите пользовательское соглашение Steam.\nВведите ключ активации (для его получения необходимо купить игру).\nПосле активации вам будет предложено скачать купленную игру ",
-        "app_id": "1643320",
-        "product_details": {
-          "title": "Издание",
-          "value": "Ultimate Edition",
-          "currency": ""
-        }
-      },
-      "product_group_id": 336,
-      "tags": [
-        {
-          "id": 176,
-          "title": null,
-          "image": "",
-          "ru_name": "Подписка",
-          "en_name": "Subscription"
-        },
-        {
-          "id": 61,
-          "title": null,
-          "image": "",
-          "ru_name": "Игра",
-          "en_name": "Game"
-        },
-        {
-          "id": 15,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/platforms/Steam.svg",
-          "ru_name": "Steam",
-          "en_name": "Steam"
-        },
-        {
-          "id": 1,
-          "title": null,
-          "image": "https://cdn.kupikod.com/shop/regions/globe-showing-asia-australia-svgrepo-com 1.svg",
-          "ru_name": "Весь мир",
-          "en_name": "GL"
         }
       ],
       "stock": 0,

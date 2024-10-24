@@ -5,10 +5,8 @@ import styles from '../../components/catalog/catalog.module.css'
 import Error from "@/components/error";
 import MainContent from "@/components/maincontent";
 import ProductTag from "@/components/catalog/producttag";
-import copy from 'copy-to-clipboard';
 import response from "@/public/games/all_shop.json";
 import Link from "next/link";
-import Copy from "@/components/icons/copy";
 import ProductDescription from "@/components/catalog/productdescription";
 
 interface Props {
@@ -77,14 +75,16 @@ const PageCatalog: React.FC<Props> = ({catalog}) => {
                   <span>Платформа:</span> {catalog.external_data.platform}
                 </div>
                 <div className={styles.chips_list}>
-                  {Array.from(new Set(foundGames.map(game => game.external_data.platform))).map((platform) => {
-                    const isActive = platform === catalog.external_data.platform;
-                    const gameData: any = foundGames.find(game => game.external_data.platform === platform);
-
+                  {Array.from(new Set(
+                    foundGames
+                      .map(game => game.external_data.platform)))
+                      .map((dataFilter) => {
+                    const isActive = dataFilter === catalog.external_data.platform;
+                    const gameData: any = foundGames.find(game => game.external_data.platform === dataFilter);
                     return (
-                      <div className={`${styles.tags_item} ${isActive ? styles.chips_list_active : ''}`} key={platform}>
+                      <div className={`${styles.tags_item} ${isActive ? styles.chips_list_active : ''}`} key={dataFilter}>
                         <Link className={styles.tags_items} href={`/catalog/${gameData.slug}`}>
-                          {platform}
+                          {dataFilter}
                         </Link>
                       </div>
                     );
@@ -101,15 +101,15 @@ const PageCatalog: React.FC<Props> = ({catalog}) => {
                       foundGames
                         .filter(game => game.external_data.platform === catalog.external_data.platform)
                         .map(game => game.external_data.product_details.value)
-                    )).map(uniqueTitle => {
-                      const game = foundGames.find(data => data.external_data.product_details.value === uniqueTitle && data.external_data.platform === catalog.external_data.platform);
-                      const isActive = uniqueTitle === catalog.external_data.product_details.value;
+                    )).map(dataFilter => {
+                      const game = foundGames.find(data => data.external_data.product_details.value === dataFilter && data.external_data.platform === catalog.external_data.platform);
+                      const isActive = dataFilter === catalog.external_data.product_details.value;
 
                       return (
                         <div className={`${styles.tags_item} ${isActive ? styles.chips_list_active : ''}`}
-                             key={uniqueTitle}>
+                             key={dataFilter}>
                           <Link className={styles.tags_items} href={`/catalog/${game?.slug}`}>
-                            {uniqueTitle}
+                            {dataFilter}
                           </Link>
                         </div>
                       );
@@ -122,24 +122,23 @@ const PageCatalog: React.FC<Props> = ({catalog}) => {
                   <span>Регион:</span> {catalog.external_data.region}
                 </div>
                 <div className={styles.chips_list}>
-                  {Array.from(new Set(
-                    foundGames
-                      .filter(game => game.external_data.platform === catalog.external_data.platform)
-                      .filter(game => game.external_data.product_details.value === catalog.external_data.product_details.value)
-                      .map(game => game.external_data.region)
-                  )).map(uniqueRegion => {
-                    const game = foundGames.find(data => data.external_data.region === uniqueRegion && data.external_data.platform === catalog.external_data.platform);
-                    const isActive = uniqueRegion === catalog.external_data.region;
+                  {Array.from(new Set(foundGames
+                  ))
+                    .filter((data) => data.external_data.platform === catalog.external_data.platform)
+                    .filter((data) => data.external_data.product_details.value === catalog.external_data.product_details.value)
+                    .map((dataFilter) => {
+                      const isActive = dataFilter.external_data.region === catalog.external_data.region;
 
-                    return (
-                      <div className={`${styles.tags_item} ${isActive ? styles.chips_list_active : ''}`}
-                           key={uniqueRegion}>
-                        <Link className={styles.tags_items} href={`/catalog/${game?.slug}`}>
-                          {uniqueRegion}
-                        </Link>
-                      </div>
-                    );
-                  })}
+
+                      return (
+                        <div className={`${styles.tags_item} ${isActive ? styles.chips_list_active : ''}`}
+                             key={dataFilter.slug}>
+                          <Link className={styles.tags_items} href={`/catalog/${dataFilter.slug}`}>
+                            {dataFilter.external_data.region}
+                          </Link>
+                        </div>
+                      );
+                    })}
                 </div>
               </div>
             </div>
