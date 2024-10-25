@@ -20,12 +20,12 @@ export default class CartService {
 
   public cartItems$ = this.cartItemsSubject.asObservable();
 
-  constructor() {
-    if (typeof localStorage !== "undefined") {
-      const savedItems = JSON.parse(localStorage.getItem("cartItems") || "[]");
-      this.cartItemsSubject.next(savedItems);
+constructor() {
+    if (typeof window !== "undefined" && typeof localStorage !== "undefined") {
+        const savedItems = JSON.parse(localStorage.getItem("cartItems") || "[]");
+        this.cartItemsSubject.next(savedItems);
     }
-  }
+}
 
   public addToCart(item: CartItem) {
     const currentItems = this.cartItemsSubject.getValue();
