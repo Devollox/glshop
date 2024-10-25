@@ -1,3 +1,4 @@
+import React from "react";
 import { BehaviorSubject } from "rxjs";
 
 export interface CartItem {
@@ -15,18 +16,19 @@ export interface CartItem {
   value?: any;
 }
 
-export default class CartService {
-  private cartItemsSubject = new BehaviorSubject<CartItem[]>([]);
+export default class CartService extends React.Component {
+  private cartItemsSubject: BehaviorSubject<CartItem[]> = new BehaviorSubject<CartItem[]>([]);
   public cartItems$ = this.cartItemsSubject.asObservable();
 
-  constructor() {
+  constructor(props: any) {
+    super(props);
     if (typeof window !== "undefined" && typeof localStorage !== "undefined") {
-      const savedItems = JSON.parse(localStorage.getItem("cartItems") || "[]");
+      const savedItems: CartItem[] = JSON.parse(localStorage.getItem("cartItems") || "[]");
       this.cartItemsSubject.next(savedItems);
     }
   }
 
-  public addToCart(item: CartItem) {
+  public addToCart(item: CartItem): void {
     const currentItems = this.cartItemsSubject.getValue();
     const existingItemIndex = currentItems.findIndex(i => i.slug === item.slug);
     if (existingItemIndex >= 0) {
@@ -38,7 +40,7 @@ export default class CartService {
     }
   }
 
-  public removeFromCart(itemToRemove: CartItem) {
+  public removeFromCart(itemToRemove: CartItem): void {
     const currentItems = this.cartItemsSubject.getValue();
     const updatedItems = currentItems.filter(item => item.slug !== itemToRemove.slug);
     this.cartItemsSubject.next(updatedItems);
@@ -47,5 +49,3 @@ export default class CartService {
     }
   }
 }
-
-export const cartService = new CartService();
