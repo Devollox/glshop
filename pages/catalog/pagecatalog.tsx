@@ -1,6 +1,3 @@
-import CartService, { CartItem } from "@/pages/cart/cartservice";
-
-const cartService = new CartService({});
 import Page from "@/components/page";
 import TapBar from "@/components/tapbar";
 import React, {useEffect, useState} from "react";
