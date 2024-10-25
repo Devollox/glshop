@@ -15,7 +15,7 @@ export interface CartItem {
   value?: any;
 }
 
-export class CartService {
+export default class CartService {
   private cartItemsSubject = new BehaviorSubject<CartItem[]>([]);
 
   public cartItems$ = this.cartItemsSubject.asObservable();
