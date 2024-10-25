@@ -36,7 +36,7 @@ const DescriptionCart:React.FC<Props> = ({data}) => {
             </div>
             <div className={styles.prices_currency_price}>{data.old_price === null ?
               <div>{parseInt(data.price_in_gold).toLocaleString('ru-RU')} ₽</div> :
-              <div style={{textDecorationLine: 'line-through', display: 'flex'}}>
+              <div style={{textDecorationLine: 'line-through !important', display: 'flex'}}>
                 {data.old_price.toLocaleString('ru-RU')} ₽
               </div>
             }

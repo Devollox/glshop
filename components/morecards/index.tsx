@@ -1,5 +1,5 @@
 import OtherButtons from "@/components/otherbuttons";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import Link from "next/link";
 import ImageCart from "@/components/swipercart/imagecart";
 import DescriptionCart from "@/components/swipercart/descriptioncart";
@@ -11,7 +11,11 @@ interface Props {
 }
 
 const MoreCards: React.FC<Props> = ({data}) => {
-  const [slide, setSlide] = useState(10)
+  const [slide, setSlide] = useState(0)
+
+  useEffect(() => {
+    setSlide(0)
+  }, [data])
 
   return (
     <>
@@ -24,7 +28,7 @@ const MoreCards: React.FC<Props> = ({data}) => {
                gridTemplateColumns: "repeat(6, 1fr)",
                gridTemplateRows: "1fr"
              }}>
-          {data.slice(0, slide).map((data: { slug: any; }) => {
+          {data.slice(0, 10 + slide).map((data: { slug: any; }) => {
             return (
               <>
                 <div className='swiper-slide' style={{margin: "50px 0 0 0"}}>
@@ -38,9 +42,9 @@ const MoreCards: React.FC<Props> = ({data}) => {
           })}
         </div>
       </div>
-      <OtherButtons functionClick={() => {
+      {slide + 10 < data.length && data.length > 0 ? <OtherButtons functionClick={() => {
         setSlide(slide + 10)
-      }}/>
+      }}/> : <></>}
     </>
   )
 }

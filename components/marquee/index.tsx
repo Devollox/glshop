@@ -2,7 +2,6 @@ import React from "react";
 import {data as data_all} from "../../public/games/all_shop.json"
 import Marquee from "react-fast-marquee";
 import styles from './marquee.module.css'
-
 import Link from "next/link";
 
 const MarqueeSlide = () => {

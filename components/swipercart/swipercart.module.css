@@ -48,6 +48,7 @@
     margin-top: 1rem;
 }
 .prices_discount {
+    height: 14px;
     user-select: none;
     background-color: #00ff9340;
     border-radius: 29px;

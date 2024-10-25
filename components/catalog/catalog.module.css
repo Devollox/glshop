@@ -113,20 +113,24 @@
     height: 618px;
     width: 412px;
 }
-@media (max-width: 1280px) {
-    .image_container, .image_container img {
-        height: 432px;
-        width: 100vw;
-    }
-}
 @media (max-width: 1550px) {
     .image_container, .image_container img {
         height: 480px;
         width: 320px;
     }
 }
+@media (max-width: 1280px) {
+    .image_container {
+        display: flex;
+        justify-content: center;
+        height: 432px;
+        width: 100%;
+    }
+}
 .main_info_title {
+    margin-right: 20px;
     margin-left: 20px;
+    width: 80%;
     display: inline;
 }
 .main_info_tags {
@@ -179,7 +183,6 @@
     width: 10px;
 }
 .main_info_chips {
-    min-width: 560px !important;
     margin-top: 24px;
 }
 .chips_header {
@@ -227,6 +230,14 @@
     display: flex;
     margin-top: 24px;
 }
+@media (max-width: 500px) {
+    .description_tabs {
+        display: block;
+    }
+    .tab {
+        margin-top: 10px;
+    }
+}
 .tab_active {
     background: hsla(0, 0%, 100%, .102);
 }
@@ -251,17 +262,157 @@
     margin-left: 5px;
     position: absolute;
 }
-.additional_content{
+.additional_content {
     margin: 20px 0;
     position: relative;
     white-space: break-spaces;
 }
-.whitespace_pre {
-    white-space: pre;
-}
+
 .additional {
     font-size: 16px;
     line-height: 2;
     overflow-wrap: anywhere;
     white-space: pre-wrap;
+}
+@media (max-width: 1550px) {
+    .form_product_payment {
+        min-width: 299px;
+        width: 299px;
+    }
+}
+.form_product_payment {
+    height: fit-content;
+    min-width: 372px;
+    width: 372px;
+}
+.product_payment {
+    background: #ffffff0d;
+    border-radius: 16px;
+    padding: 28px 24px;
+    position: relative;
+}
+@media (max-width: 1620px) and (min-width: 1281px) {
+    .payment_form_title {
+        max-width: 90%;
+    }
+}
+.payment_form_title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.form_price {
+    background-color: #ffffff1a;
+    border: 1px solid hsla(0, 0%, 100%, .102);
+    border-radius: 8px;
+    padding: 13px 16px;
+}
+.price_header {
+    margin-bottom: 2px;
+}
+.price_title {
+    font-size: 16px;
+    font-weight: 700;
+}
+.price_body {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 4px;
+}
+.price_coin {
+    font-size: 24px;
+    font-weight: 700;
+}
+.payment_form_button_container {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.payment_form_button {
+    align-items: center;
+    background: #00ff93;
+    border-radius: 12px;
+    color: #000;
+    display: flex;
+    font-size: 14px;
+    height: 55px;
+    justify-content: center;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+}
+
+.button_content {
+    grid-area: content;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.v_btn_overlay, .button_content, .button_content_prepend {
+    align-items: center;
+    display: flex;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* Изменена анимация */
+}
+
+.v_btn_overlay {
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+}
+
+.payment_form_button:hover .v_btn_overlay {
+    transform: scale(1);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Добавлен эффект плавного движения */
+.payment_form_button:hover .v_btn_overlay {
+    transform: scale(1);
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); /* Более плавная анимация */
+}
+@media (max-width: 1280px) {
+    .catalog {
+        display: block !important;
+    }
+    .form_product_payment {
+        display: none;
+    }
+}
+.payment_hint {
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    background: #212227;
+    border-left: 1px solid hsla(0, 0%, 100%, .1);
+    border-radius: 16px 16px 0 0;
+    border-right: 1px solid hsla(0, 0%, 100%, .1);
+    border-top: 1px solid hsla(0, 0%, 100%, .1);
+    bottom: 50px;
+    display: none;
+    flex-direction: column;
+    left: 0;
+    padding: 16px;
+    position: fixed;
+    right: 0;
+    transition-duration: .4s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    z-index: 111;
+}
+
+@media (max-width: 1280px) {
+    .payment_hint {
+        display: flex;
+    }
 }

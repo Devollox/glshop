@@ -3,11 +3,21 @@ import Basket from "@/components/icons/basket";
 import Link from "next/link";
 import Main from "@/components/icons/main";
 import SearchComponent from "@/components/navbar/search";
-import {BehaviorSubject} from "rxjs";
+import {useEffect, useState} from "react";
+import {CartItem, cartService} from "@/pages/cart/cartservice";
 
 const Navbar = ({block}: any) => {
-  const cart$ = new BehaviorSubject([]);
-  const cartItems: any = cart$.getValue();
+  const [cartItems, setCartItems] = useState<CartItem[]>([]);
+
+  useEffect(() => {
+    const subscription = cartService.cartItems$.subscribe((items) => {
+      setCartItems(items);
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, []);
 
   return (
     <>
@@ -53,8 +63,9 @@ const Navbar = ({block}: any) => {
                        xmlns="http://www.w3.org/2000/svg">
                     <Basket/>
                   </svg>
-                  {cartItems != 0 ? <div className={styles.header_control_badge}>19</div>: <></>}
-
+                  {cartItems.length !== 0 && (
+                    <div className={styles.header_control_badge}>{cartItems.length}</div>
+                  )}
                 </span>
             </div>
           </div>

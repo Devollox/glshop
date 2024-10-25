@@ -46,12 +46,10 @@ const ProductDescription: React.FC<ProductDescriptionProps> = ({ data }) => {
           {activeTab === 'description' && (
             <div id='descriptionContent' className={styles.chips_header}>
               <span style={{display: 'flex', flexWrap: 'wrap', margin: '20px 0', height: 'auto', width: '100%'}}>
-                {data.tags.map((data: {
-                  en_name: boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | Promise<React.AwaitedReactNode> | React.Key | null | undefined;
-                }) => (
-                  <div className={`${styles.tags_item}`} style={{height: 'auto', width: 'auto', margin: '5px'}}>
-                    <Link className={styles.tags_items} href={`/catalog/tags/${data.en_name}`}>
-                      {data.en_name}
+                {data.tags.map((tag: { en_name: string }) => (
+                  <div className={`${styles.tags_item}`} style={{height: 'auto', width: 'auto', margin: '5px'}} key={tag.en_name}>
+                    <Link className={styles.tags_items} href={`/catalog/tags/${tag.en_name.toLowerCase()}`}>
+                      {tag.en_name}
                     </Link>
                   </div>
                 ))}

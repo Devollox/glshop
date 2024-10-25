@@ -7,7 +7,8 @@ interface Props {
 }
 
 const ImageCart:React.FC<Props> = ({data, stylesBlockWidth}) => {
-  const isRegion: any = {
+
+  const isRegion: Record<string, string> = {
     "Весь мир": "globe-showing-asia-australia-svgrepo-com",
     "Весь мир (Без СНГ)": "globe-showing-asia-australia-svgrepo-com",
     "Весь мир (Без РФ)": "globe-showing-asia-australia-svgrepo-com",
