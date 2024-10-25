@@ -1,3 +1,6 @@
+import CartService, { CartItem } from "@/pages/cart/cartservice";
+
+const cartService = new CartService({});
 import Page from "@/components/page";
 import TapBar from "@/components/tapbar";
 import React, {useEffect, useState} from "react";
@@ -10,7 +13,9 @@ import Link from "next/link";
 import ProductDescription from "@/components/catalog/productdescription";
 import useCalculateDiscount from "@/hook/useCalculateDiscount";
 import stylesCoin from "@/components/swipercart/swipercart.module.css";
-import { cartService } from "@/pages/cart/cartservice";
+import CartService, { CartItem } from "@/pages/cart/cartservice";
+
+const cartService = new CartService({});
 
 interface Props {
   catalog?: any
