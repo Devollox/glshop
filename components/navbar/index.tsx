@@ -4,7 +4,9 @@ import Link from "next/link";
 import Main from "@/components/icons/main";
 import SearchComponent from "@/components/navbar/search";
 import {useEffect, useState} from "react";
-import {CartItem, cartService} from "@/pages/cart/cartservice";
+import CartService, { CartItem } from "@/pages/cart/cartservice";
+
+const cartService = new CartService({});
 
 const Navbar = ({block}: any) => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
