@@ -1,23 +1,51 @@
 import PageTags from "./pagetags";
-import useTypeTag from "@/hook/useGameTags";
+import response from "../../../public/games/all_shop.json";
 
 interface Props {
   catalog?: any;
   slugContext?: string;
 }
 
-export const getServerSideProps = (context: { query: { slug: any; }; }) => {
-  const {slug} = context.query;
-  const response = require("../../../public/games/all_shop.json")
+interface Context {
+  query: {
+    slug: string;
+  };
+}
 
-  let foundGame = response.data.filter((game: { tags: { en_name: string; }[]; }) =>
-    game.tags.some((tag: { en_name: string; }) => tag.en_name === `${useTypeTag(slug)}`)
-  );
-  if (foundGame === undefined) {
-    return {
-      props: { catalog: null },
-    };
+export const getServerSideProps = (context: Context) => {
+  const {slug} = context.query;
+
+  const capitalizeFirstLetter = (str: string) => str.charAt(0).toUpperCase() + str.slice(1);
+
+  const capitalizeFirstTwoWords = (str: string) => {
+    const words = str.split(' ');
+    if (words.length === 1) {
+      return capitalizeFirstLetter(str);
+    }
+    return words.map((word, index) => index < 2 ? capitalizeFirstLetter(word) : word.toLowerCase()).join(' ');
+  };
+
+  const toUpperCase = (str: string) => str.toUpperCase();
+
+  const checkTagMatch = (tagName: string, slug: string) => {
+    const capitalizedSlug = capitalizeFirstLetter(slug);
+    const capitalizedFirstTwoWordsSlug = capitalizeFirstTwoWords(slug);
+    const upperCaseSlug = toUpperCase(slug);
+
+    return tagName === capitalizedSlug || tagName === capitalizedFirstTwoWordsSlug || tagName === upperCaseSlug;
+  };
+
+  interface Tag {
+    en_name: string;
   }
+
+  interface Game {
+    tags: Tag[];
+  }
+
+  let foundGame = response.data.filter((game: Game) =>
+    game.tags.some((tag) => checkTagMatch(tag.en_name, slug))
+  );
 
   return {
     props: {
@@ -28,8 +56,6 @@ export const getServerSideProps = (context: { query: { slug: any; }; }) => {
 };
 
 const SlugContent: React.FC<Props> = ({ catalog, slugContext }) => {
-  console.log(slugContext)
-
   return <PageTags catalog={catalog} slugContext={slugContext}/>
 };
 

@@ -8,7 +8,10 @@ const typeTags: { [key: string]: string } = {
   "popular games": 'Popular Games',
   "pre-order": 'Pre-order',
   "new items": 'New Items',
-  "subscription": 'Subscription'
+  "subscription": 'Subscription',
+  "adventure": 'Adventure',
+  "2015": '2015',
+  "ru+cis": 'RU+CIS',
 };
 
 const useTypeTag = (type: string | number) => {

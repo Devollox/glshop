@@ -11,7 +11,7 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-а, p, div, link, span, applet, object, iframe {
+а, p, link, span, applet, object, iframe {
     text-decoration: none !important;
 }
 button, input, optgroup, select, textarea {

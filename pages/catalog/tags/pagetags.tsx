@@ -6,6 +6,7 @@ import MainContent from "@/components/maincontent";
 import MoreCards from "@/components/morecards";
 import TitleCatalog from "@/components/catalog/titlecatolog";
 import TagsWrapper from "@/components/catalog/tagswrapper";
+import data from '../../../public/games/tags_catalog.json'
 
 interface Props {
   catalog?: any;
@@ -18,7 +19,6 @@ const PageTags: React.FC<Props> = ({ catalog, slugContext }) => {
   }
 
   const title = slugContext.charAt(0).toUpperCase() + slugContext.slice(1)
-  const data = require("../../../public/games/tags_catalog.json");
   const category = data.catalog.find((category: { href: string }) => category.href === `${slugContext}`);
   let tags = category ? category.tags : [];
 
@@ -32,8 +32,12 @@ const PageTags: React.FC<Props> = ({ catalog, slugContext }) => {
   return (
     <Page title={title}>
       <MainContent height={"100%"} margin={"100px 0 0 0"}>
-        <TitleCatalog />
-        <TagsWrapper data={tags} />
+        {tags.length !== 0 && (
+          <>
+            <TitleCatalog />
+            <TagsWrapper data={tags} />
+          </>
+        )}
       </MainContent>
       <MainContent height={"100%"} margin={"0 0 0 0"}>
         <MoreCards data={catalog} />

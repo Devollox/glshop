@@ -7,7 +7,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import MainContent from "@/components/maincontent";
 import Footer from "@/components/footer";
-import TapBar from "@/components/tapbar";
 import React from "react";
 import MarqueeSlide from "@/components/marquee";
 import Navbar from "@/components/navbar";

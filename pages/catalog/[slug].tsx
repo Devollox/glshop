@@ -1,31 +1,34 @@
 import PageCatalog from "@/pages/catalog/pagecatalog";
+import response from "../../public/games/all_shop.json"; // Импорт JSON с установленными декларациями
 
-interface Props {
-  catalog?: any;
+interface Game {
+  id: number;
+  name: string;
+  slug: string;
 }
 
-export const getServerSideProps = (context: { query: { slug: any; }; }) => {
+interface Props {
+  catalog?: Game | null;
+}
+
+interface Context {
+  query: {
+    slug: string;
+  };
+}
+
+export const getServerSideProps = (context: Context) => {
   const { slug } = context.query;
-  const response = require("../../public/games/all_shop.json")
 
-  let foundGame = response.data.find((game: {
-    slug: any;
-    app_id: number; }) => game.slug === slug);
-
-
-  if (foundGame === undefined) {
-    return {
-      props: { catalog: null },
-    };
-  }
+  const foundGame = response.data.find((game: Game) => game.slug === slug);
 
   return {
-    props: { catalog: foundGame },
+    props: { catalog: foundGame || null },
   };
 };
 
 const SlugContent: React.FC<Props> = ({ catalog }) => {
-  return <PageCatalog catalog={catalog} />
+  return <PageCatalog catalog={catalog} />;
 };
 
 export default SlugContent;

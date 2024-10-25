@@ -1,7 +1,6 @@
 import MainContent from "@/components/maincontent";
 import Navbar from "@/components/navbar";
 import TitleCatalog from "@/components/catalog/titlecatolog";
-import TagsWrapper from "@/components/catalog/tagswrapper";
 import React from "react";
 
 const CatalogTags = () => {
