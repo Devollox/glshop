@@ -92,13 +92,12 @@ const Cart: React.FC = () => {
                         <div className={styles.product_card}>
                           <div className={styles.product_card_main}>
                             <div style={{display: 'flex'}}>
-                              <img src={`${item.picture_url}`}
-                                   className={styles.product_card_main_cover}
+                              <img src={`${item.picture_url}`} className={styles.product_card_main_cover}
                               />
                               <div className={styles.product_card_main_header}>
                                 <div>
                                   <p className={styles.product_card_main_header_title}>
-                                    <Link href={`/catalog/${item.slug}`} style={{textDecoration: 'none'}}>
+                                    <Link href={`/catalog/${item.slug}`} style={{textDecoration: 'none', color: 'white'}}>
                                       {item.h1_title}
                                     </Link>
                                   </p>
