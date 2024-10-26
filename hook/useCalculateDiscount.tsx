@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 
 const useCalculateDiscount = (originalPrice: number, discountedPrice: number) => {
-  const [discountPercentage, setDiscountPercentage] = useState<number>(0);
+  const [discountPercentage, setDiscountPercentage] = useState<any>(0);
 
   useEffect(() => {
     if (originalPrice > 0 && discountedPrice >= 0) {
