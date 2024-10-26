@@ -4,10 +4,13 @@ import Link from "next/link";
 import Main from "@/components/icons/main";
 import SearchComponent from "@/components/navbar/search";
 import {useEffect, useState} from "react";
-import CartService, { CartItem } from "@/service/cartservice";
+import {CartItem, cartService} from "@/service/cartservice";
 
-const Navbar = ({block}: any) => {
-  const cartService = new CartService({})
+interface Props {
+  block?: string
+}
+
+const Navbar: React.FC<Props> = ({block}) => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   useEffect(() => {

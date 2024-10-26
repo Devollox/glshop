@@ -1,12 +1,12 @@
 import { BehaviorSubject } from "rxjs";
-import React from "react";
 
 export interface CartItem {
   slug?: string;
   name?: string;
-  price?: number;
-  old_price?: number;
-  price_in_gold?: number;
+  price?: any;
+  old_price?: any;
+  picture_url?: string;
+  price_in_gold?: any;
   for_sale?: boolean;
   h1_title?: string;
   product_type?: string;
@@ -16,36 +16,42 @@ export interface CartItem {
   value?: any;
 }
 
-class CartService extends React.Component {
-  private cartItemsSubject = new BehaviorSubject<CartItem[]>([]);
+export class CartService  {
+  private cartItemsSubject: BehaviorSubject<CartItem[]> = new BehaviorSubject<CartItem[]>([]);
   public cartItems$ = this.cartItemsSubject.asObservable();
 
-  constructor(props: any) {
-    super(props);
-    if (typeof localStorage !== "undefined") {
-      const savedItems = JSON.parse(localStorage.getItem("cartItems") || "[]");
+  constructor() {
+    if (typeof window !== "undefined" && typeof localStorage !== "undefined") {
+      const savedItems: CartItem[] = JSON.parse(localStorage.getItem("cartItems") || "[]");
       this.cartItemsSubject.next(savedItems);
     }
   }
 
-  public addToCart(item: CartItem) {
+  public addToCart(item: CartItem): void {
     const currentItems = this.cartItemsSubject.getValue();
     const existingItemIndex = currentItems.findIndex(i => i.slug === item.slug);
     if (existingItemIndex >= 0) {
       return;
     }
     this.cartItemsSubject.next([...currentItems, item]);
-    localStorage.setItem("cartItems", JSON.stringify([...currentItems, item]));
+    if (typeof window !== "undefined") {
+      localStorage.setItem("cartItems", JSON.stringify([...currentItems, item]));
+    }
   }
 
-  public removeFromCart(itemToRemove: CartItem) {
+  public removeFromCart(itemToRemove: CartItem): void {
     const currentItems = this.cartItemsSubject.getValue();
     const updatedItems = currentItems.filter(item => item.slug !== itemToRemove.slug);
     this.cartItemsSubject.next(updatedItems);
-    if (typeof localStorage !== "undefined") {
+    if (typeof window !== "undefined") {
       localStorage.setItem("cartItems", JSON.stringify(updatedItems));
     }
   }
+
+  public clearCart() {
+    this.cartItemsSubject.next([]);
+    localStorage.setItem("cartItems", JSON.stringify([]));
+  }
 }
 
-export default CartService
+export const cartService = new CartService();

@@ -10,14 +10,13 @@ import Link from "next/link";
 import ProductDescription from "@/components/catalog/productdescription";
 import useCalculateDiscount from "@/hook/useCalculateDiscount";
 import stylesCoin from "@/components/swipercart/swipercart.module.css";
-import CartService, { CartItem } from "@/service/cartservice";
+import {CartItem, cartService} from "@/service/cartservice";
 
 interface Props {
   catalog?: any
 }
 
 const PageCatalog: React.FC<Props> = ({catalog}) => {
-  const cartService = new CartService({})
   if (!catalog || !catalog.external_data) {
     return <Error status={404} />;
   }
@@ -27,11 +26,12 @@ const PageCatalog: React.FC<Props> = ({catalog}) => {
   const foundGames = response.data.filter((game) => game.name.toLowerCase().includes(catalog.name.toLowerCase()));
 
   interface CartItem {
-    slug: string;
-    name: string;
-    price: number;
-    old_price?: number;
-    price_in_gold?: number;
+    slug?: string;
+    name?: string;
+    price?: any;
+    old_price?: any;
+    picture_url?: string;
+    price_in_gold?: any;
     for_sale?: boolean;
     h1_title?: string;
     product_type?: string;
@@ -46,6 +46,7 @@ const PageCatalog: React.FC<Props> = ({catalog}) => {
       slug: catalog.slug,
       name: catalog.name,
       price: catalog.price,
+      picture_url: catalog.picture_url,
       old_price: catalog.old_price,
       price_in_gold: catalog.price_in_gold,
       for_sale: catalog.for_sale,

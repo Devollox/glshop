@@ -27,14 +27,14 @@ const PageTags: React.FC<Props> = ({ catalog, slugContext }) => {
       .filter((category: { tags: { href: string; }[]; }) =>
         category.tags.some((tag: { href: string; }) => tag.href === `${slugContext}`))
       .flatMap((category: { tags: any; }) => category.tags);
-  }
+  };
 
   return (
     <Page title={title}>
       <MainContent height={"100%"} margin={"100px 0 0 0"}>
         {tags.length !== 0 && (
           <>
-            <TitleCatalog />
+            <TitleCatalog  title={"Каталог"}/>
             <TagsWrapper data={tags} />
           </>
         )}

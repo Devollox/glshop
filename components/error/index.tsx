@@ -17,7 +17,7 @@ const Error: React.FC<Props> = ({
       <Head>
         <title>{status} — Devollox</title>
       </Head>
-      <Navbar />
+
       <TapBar catalog={".5"} main={".5"} cart={".5"}/>
       <main>{children}</main>
     </>

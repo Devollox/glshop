@@ -32,7 +32,7 @@ const Catalog: React.FC = () => {
       <Page title={"Catalog"}>
         <Navbar block={'none'} />
         <MainContent height={"100%"} margin={"100px 0 0 0"}>
-          <TitleCatalog />
+          <TitleCatalog  title={"Каталог"}/>
           <TagsWrapper data={data} />
         </MainContent>
         <MainContent height={"100%"} margin={"0px 0 50px 0"}>

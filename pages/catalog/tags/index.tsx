@@ -8,7 +8,7 @@ const CatalogTags = () => {
     <>
       <Navbar block={'none'}/>
       <MainContent height={"100%"} margin={"100px 0 0 0"}>
-        <TitleCatalog/>
+        <TitleCatalog title={"Каталог"}/>
       </MainContent>
     </>
   )
