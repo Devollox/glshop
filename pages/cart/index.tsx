@@ -59,7 +59,7 @@ const Cart: React.FC = () => {
 
   return (
     <>
-      <Page title="Корзина">
+      <Page title="Cart">
         <MainContent height="100%" margin="100px 0 0 0">
           <TitleCatalog title={"Корзина"}/>
           <div className={styles.cart_page_header}>
