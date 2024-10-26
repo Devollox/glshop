@@ -132,7 +132,7 @@ const Cart: React.FC = () => {
                                 {item.old_price != null ?
                                   <>
                                     <div
-                                      className={stylesCoin.prices_discount}>{-calculateDiscount(item.old_price, item.price)}%
+                                      className={stylesCoin.prices_discount}>-{calculateDiscount(item.old_price, item.price)}%
                                     </div>
                                   </>
                                   : <></>
