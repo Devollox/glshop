@@ -98,7 +98,9 @@ const Cart: React.FC = () => {
                               <div className={styles.product_card_main_header}>
                                 <div>
                                   <p className={styles.product_card_main_header_title}>
-                                    {item.h1_title}
+                                    <Link href={`/catalog/${item.slug}`} style={{textDecoration: 'none'}}>
+                                      {item.h1_title}
+                                    </Link>
                                   </p>
                                 </div>
                                 <InfoCart title={'Платформа'} description={item.platform}/>
