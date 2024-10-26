@@ -11,6 +11,9 @@ import stylesCoin from "@/components/swipercart/swipercart.module.css";
 import stylesButton from '../../components/catalog/catalog.module.css'
 import calculateDiscount from "@/hook/calculateDiscount";
 import Link from "next/link";
+import SwiperCart from "@/components/swipercart";
+import {Game} from "@/pages/catalog";
+import { data as data_top } from "../../public/games/all_shop.json";
 
 const Cart: React.FC = () => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
@@ -46,6 +49,13 @@ const Cart: React.FC = () => {
       return 'товаров';
     }
   };
+
+  const filteredGames: Game[] = data_top.filter((game: Game) => {
+    return game.tags.some((tag: { ru_name: string }) => {
+      const year = parseInt(tag.ru_name);
+      return !isNaN(year) && year >= 2000 && year <= 2024;
+    });
+  });
 
   return (
     <>
@@ -92,7 +102,8 @@ const Cart: React.FC = () => {
                         <div className={styles.product_card}>
                           <div className={styles.product_card_main}>
                             <div style={{display: 'flex'}}>
-                              <img src={`${item.picture_url}`} className={styles.product_card_main_cover}
+                              <img src={`${item.picture_url}`}
+                                   className={styles.product_card_main_cover}
                               />
                               <div className={styles.product_card_main_header}>
                                 <div>
@@ -223,6 +234,7 @@ const Cart: React.FC = () => {
               </div>
             )}
           </div>
+          <SwiperCart title="Топ продаж" data={filteredGames} />
         </MainContent>
         <TapBar catalog=".5" cart="1" main=".5"/>
       </Page>
