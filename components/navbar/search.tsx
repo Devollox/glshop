@@ -92,7 +92,6 @@ const SearchComponent: React.FC = () => {
                 <div className={styles.wrapper_cart} style={{display: 'flex', justifyContent: 'space-between', margin: '0 0 0 0'}}
                      key={game.id}>
                   <div style={{display: 'flex', margin: '10px 0 12px 0px'}}>
-                    {/*<img style={{height: '40px'}} src={game.picture_url} alt={game.name}/> */}
                     <div style={{marginLeft: '12px'}}>
                       <div style={{marginTop: '0'}} className={stylesCount.product_card_name}>{game.name}</div>
                       <div className={stylesCount.product_card_sub_name}>{game.external_data.product_details.value}</div>
