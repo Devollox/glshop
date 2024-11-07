@@ -1,5 +1,5 @@
 import PageCatalog from "@/pages/catalog/pagecatalog";
-import response from "../../public/games/all_shop.json"; // Импорт JSON с установленными декларациями
+import response from "../../public/games/all_shop.json"; 
 
 interface Game {
   id: number;
