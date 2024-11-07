@@ -35,9 +35,9 @@ const SearchComponent: React.FC = () => {
       const results = data.data.filter((game: Game) =>
         game.name.toLowerCase().replace(/[.:`']/g, '').includes(value)
       );
-      setFilteredGames(results.slice().sort((a, b) => a.name.localeCompare(b.name))); // Создаем копию массива
+      setFilteredGames(results.slice().sort((a, b) => a.name.localeCompare(b.name)));
     } else {
-      setFilteredGames(data.data.slice().sort((a, b) => a.name.localeCompare(b.name))); // Создаем копию массива
+      setFilteredGames(data.data.slice().sort((a, b) => a.name.localeCompare(b.name)));
     }
   };
 
