@@ -178,7 +178,7 @@ const PageCatalog: React.FC<Props> = ({catalog}) => {
             <div className={styles.form_product_payment}>
               <div className={styles.product_payment}>
                 <div className={styles.description}>
-                  <h2 className={styles.payment_form_title}>Kingdom Come: Deliverance II</h2>
+                  <h2 className={styles.payment_form_title}>{catalog.name}</h2>
                   <div className={styles.form_price}>
                     <div className={styles.price_header}>
                       <p className={styles.price_title}>Удачкоины:</p>
